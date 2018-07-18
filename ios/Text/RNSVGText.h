@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "RNSVGGroup.h"
-#import "AlignmentBaseline.h"
 
 @interface RNSVGText : RNSVGGroup
 
@@ -25,7 +24,5 @@
 - (void)releaseCachedPath;
 - (CGPathRef)getGroupPath:(CGContextRef)context;
 - (CTFontRef)getFontFromContext;
-- (NSString*) getAlignmentBaseline;
-- (NSString*) getBaselineShift;
 
 @end
